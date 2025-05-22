@@ -1,0 +1,117 @@
+/* Custom CSS for Login Page */
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.login-header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.login-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #2575fc;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1a5bbf;
+}
+
+.alert-danger {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.text-decoration-none {
+    color: #2575fc;
+}
+
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+.login-footer {
+    background: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+.login-footer p {
+    margin: 0;
+    font-size: 14px;
+}

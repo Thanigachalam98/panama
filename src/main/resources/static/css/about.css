@@ -1,0 +1,248 @@
+/* General Enhancements */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+/* Hero Section */
+.about-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/about-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    animation: fadeInDown 1s ease-out;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    color: #ddd;
+    animation: fadeInUp 1s ease-out;
+}
+
+/* About Cards */
+.about-card {
+    background: white;
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.about-icon {
+    font-size: 3rem;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+/* Features List */
+.features-list h4 {
+    margin-top: 20px;
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.features-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.features-list li {
+    padding: 10px 0;
+    color: #444;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+}
+
+.features-list i {
+    color: #0d6efd;
+    margin-right: 10px;
+}
+
+/* Buttons */
+.btn-shop-now, .btn-chat-now {
+    margin-top: 20px;
+    padding: 12px 28px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-shop-now {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-shop-now:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-chat-now {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-chat-now:hover {
+    background-color: #5a6268;
+}
+
+/* Technology Section */
+.technology-section {
+    background: #fff;
+    padding: 60px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.tech-item i {
+    color: #0d6efd;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.tech-item:hover i {
+    transform: scale(1.2);
+}
+
+/* Team Section */
+.team-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.team-member {
+    padding: 30px 20px;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    color: Gold;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid #e0e0e0;
+}
+
+.textm{
+	color: white;
+}
+
+/* Footer */
+.footer {
+    background: #0d6efd;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #d1e9ff;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 12px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('/images/about-hero.jpg') center/cover no-repeat;
+    height: 300px;
+}
+
+.about-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.technology-section {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.team-member img {
+    object-fit: cover;
+    border: 5px solid #e9ecef;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
